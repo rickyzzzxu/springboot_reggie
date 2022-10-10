@@ -2,6 +2,7 @@ package com.ricky.reggie.controller;
 
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
+import com.ricky.reggie.common.BaseContext;
 import com.ricky.reggie.common.R;
 import com.ricky.reggie.entity.Employee;
 import com.ricky.reggie.service.EmployeeService;
@@ -12,7 +13,6 @@ import org.springframework.util.DigestUtils;
 import org.springframework.web.bind.annotation.*;
 
 import javax.servlet.http.HttpServletRequest;
-import java.time.LocalDateTime;
 
 @Slf4j
 @RestController
@@ -67,13 +67,15 @@ public class EmployeeController {
     @RequestMapping
     public R<String> save(HttpServletRequest request, @RequestBody Employee employee) {
         employee.setPassword(DigestUtils.md5DigestAsHex("123456".getBytes()));
-        employee.setCreateTime(LocalDateTime.now());
-        employee.setUpdateTime(LocalDateTime.now());
+        //employee.setCreateTime(LocalDateTime.now());
+        //employee.setUpdateTime(LocalDateTime.now());
 
+        //long empId = (long) request.getSession().getAttribute("employee");
+
+        //employee.setCreateUser(empId);
+        //employee.setUpdateUser(empId);
         long empId = (long) request.getSession().getAttribute("employee");
-
-        employee.setCreateUser(empId);
-        employee.setUpdateUser(empId);
+        BaseContext.setCurrentId(empId);
 
         employeeService.save(employee);
 
@@ -98,15 +100,23 @@ public class EmployeeController {
     @PutMapping
     public R<String> update(HttpServletRequest request, @RequestBody Employee employee) {
 
-        long empId = (long) request.getSession().getAttribute("employee");
+        //long empId = (long) request.getSession().getAttribute("employee");
+        //employee.setUpdateTime(LocalDateTime.now());
+        //employee.setUpdateUser(empId);
 
-        employee.setUpdateTime(LocalDateTime.now());
-        employee.setUpdateUser(empId);
         employeeService.updateById(employee);
 
         return R.success("修改成功");
 
     }
 
+    @GetMapping("/{id}")
+    public R<Employee> getById(@PathVariable long id) {
+        Employee employee = employeeService.getById(id);
+        if (employee != null){
+            return R.success(employee);
+        }
+        return R.error("没有查询到该员工信息");
+    }
 
 }
