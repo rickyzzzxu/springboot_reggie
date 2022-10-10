@@ -1,6 +1,7 @@
 package com.ricky.reggie.entity;
 
 import lombok.Data;
+
 import java.io.Serializable;
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
