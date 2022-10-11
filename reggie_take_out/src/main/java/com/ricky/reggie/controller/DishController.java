@@ -114,5 +114,17 @@ public class DishController {
         return R.success("删除成功");
     }
 
+    @GetMapping("/list")
+    public R<List<Dish>> listR(Dish dish) {
+
+        LambdaQueryWrapper<Dish> queryWrapper = new LambdaQueryWrapper<>();
+        queryWrapper.eq(dish.getCategoryId() != null, Dish::getCategoryId, dish.getCategoryId());
+        queryWrapper.orderByAsc(Dish::getSort).orderByDesc(Dish::getUpdateTime)
+                .eq(Dish::getStatus,1);
+
+        List<Dish> list = dishService.list(queryWrapper);
+
+        return R.success(list);
+    }
 
 }
