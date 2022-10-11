@@ -6,7 +6,14 @@
   <component name="ChangeListManager">
     <list default="true" id="829e0c8d-95c8-419c-871a-1691156b7373" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ricky/reggie/ReggieApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ricky/reggie/ReggieApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ricky/reggie/controller/CategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ricky/reggie/controller/CategoryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ricky/reggie/service/DishService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ricky/reggie/service/DishService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ricky/reggie/service/impl/DishServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ricky/reggie/service/impl/DishServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ricky/reggie/ReggieApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ricky/reggie/ReggieApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ricky/reggie/controller/CategoryController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ricky/reggie/controller/CategoryController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ricky/reggie/service/DishService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ricky/reggie/service/DishService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ricky/reggie/service/impl/DishServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ricky/reggie/service/impl/DishServiceImpl.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +64,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/backend" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../c盘/reggie/代码/day06/reggie_take_out" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -70,11 +77,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workplace_case\reggie_take_out\src\main\java\com\ricky\reggie" />
       <recent name="D:\workplace_case\reggie_take_out\src\main\resources\backend" />
       <recent name="D:\workplace_case\reggie_take_out\src\main\resources" />
       <recent name="D:\workplace_case\reggie_take_out\src\main\java\com\ricky\reggie\controller" />
       <recent name="D:\workplace_case\reggie_take_out\src\main\java\com\ricky\reggie\entity" />
-      <recent name="D:\workplace_case\reggie_take_out\src\main\java\com\ricky\reggie" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.ricky.reggie.controller" />
@@ -116,7 +123,8 @@
       <workItem from="1665223184802" duration="13152000" />
       <workItem from="1665367912868" duration="11872000" />
       <workItem from="1665389214496" duration="689000" />
-      <workItem from="1665389929615" duration="9426000" />
+      <workItem from="1665389929615" duration="14436000" />
+      <workItem from="1665464524670" duration="4605000" />
     </task>
     <servers />
   </component>
