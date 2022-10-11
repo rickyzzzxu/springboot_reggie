@@ -6,53 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="829e0c8d-95c8-419c-871a-1691156b7373" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ricky/reggie/common/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ricky/reggie/common/GlobalExceptionHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ricky/reggie/entity/AddressBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ricky/reggie/entity/AddressBook.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ricky/reggie/entity/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ricky/reggie/entity/Category.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ricky/reggie/entity/Dish.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ricky/reggie/entity/Dish.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ricky/reggie/entity/DishFlavor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ricky/reggie/entity/DishFlavor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ricky/reggie/entity/OrderDetail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ricky/reggie/entity/OrderDetail.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ricky/reggie/entity/Orders.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ricky/reggie/entity/Orders.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ricky/reggie/entity/Setmeal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ricky/reggie/entity/Setmeal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ricky/reggie/entity/SetmealDish.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ricky/reggie/entity/SetmealDish.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ricky/reggie/entity/ShoppingCart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ricky/reggie/entity/ShoppingCart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ricky/reggie/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ricky/reggie/entity/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/backend/js/request.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/backend/js/request.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/backend/plugins/element-ui/fonts/element-icons.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/backend/plugins/element-ui/fonts/element-icons.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/backend/plugins/element-ui/fonts/element-icons.woff" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/backend/plugins/element-ui/fonts/element-icons.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/backend/styles/fonts/element-icons.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/backend/styles/fonts/element-icons.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/backend/styles/fonts/element-icons.woff" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/backend/styles/fonts/element-icons.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/backend/styles/icon/iconfont.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/backend/styles/icon/iconfont.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/backend/styles/icon/iconfont.woff" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/backend/styles/icon/iconfont.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/backend/styles/icon/iconfont.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/backend/styles/icon/iconfont.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/front/fonts/DIN-Bold.otf" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/front/fonts/DIN-Bold.otf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/front/fonts/DIN-Medium.otf" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/front/fonts/DIN-Medium.otf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/front/fonts/PingFangSC-Medium.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/front/fonts/PingFangSC-Medium.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/front/fonts/PingFangSC-Regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/front/fonts/PingFangSC-Regular.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/front/fonts/PingFangSC-Semibold.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/front/fonts/PingFangSC-Semibold.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/backend/js/request.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/backend/js/request.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/backend/plugins/element-ui/fonts/element-icons.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/backend/plugins/element-ui/fonts/element-icons.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/backend/plugins/element-ui/fonts/element-icons.woff" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/backend/plugins/element-ui/fonts/element-icons.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/backend/styles/fonts/element-icons.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/backend/styles/fonts/element-icons.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/backend/styles/fonts/element-icons.woff" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/backend/styles/fonts/element-icons.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/backend/styles/icon/iconfont.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/backend/styles/icon/iconfont.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/backend/styles/icon/iconfont.woff" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/backend/styles/icon/iconfont.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/backend/styles/icon/iconfont.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/backend/styles/icon/iconfont.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ricky/reggie/entity/AddressBook.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ricky/reggie/entity/AddressBook.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ricky/reggie/entity/Category.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ricky/reggie/entity/Category.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ricky/reggie/entity/Dish.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ricky/reggie/entity/Dish.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ricky/reggie/entity/DishFlavor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ricky/reggie/entity/DishFlavor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ricky/reggie/entity/OrderDetail.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ricky/reggie/entity/OrderDetail.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ricky/reggie/entity/Orders.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ricky/reggie/entity/Orders.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ricky/reggie/entity/Setmeal.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ricky/reggie/entity/Setmeal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ricky/reggie/entity/SetmealDish.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ricky/reggie/entity/SetmealDish.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ricky/reggie/entity/ShoppingCart.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ricky/reggie/entity/ShoppingCart.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ricky/reggie/entity/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ricky/reggie/entity/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/front/fonts/DIN-Bold.otf" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/front/fonts/DIN-Bold.otf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/front/fonts/DIN-Medium.otf" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/front/fonts/DIN-Medium.otf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/front/fonts/PingFangSC-Medium.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/front/fonts/PingFangSC-Medium.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/front/fonts/PingFangSC-Regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/front/fonts/PingFangSC-Regular.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/front/fonts/PingFangSC-Semibold.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/front/fonts/PingFangSC-Semibold.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,8 +77,8 @@
       <recent name="D:\workplace_case\reggie_take_out\src\main\java\com\ricky\reggie" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.ricky.reggie.common" />
       <recent name="com.ricky.reggie.controller" />
+      <recent name="com.ricky.reggie.common" />
       <recent name="com.ricky.reggie.filter" />
       <recent name="com.ricky.reggie.entity" />
       <recent name="com.ricky.reggie.config" />
@@ -162,7 +116,7 @@
       <workItem from="1665223184802" duration="13152000" />
       <workItem from="1665367912868" duration="11872000" />
       <workItem from="1665389214496" duration="689000" />
-      <workItem from="1665389929615" duration="2365000" />
+      <workItem from="1665389929615" duration="9426000" />
     </task>
     <servers />
   </component>
