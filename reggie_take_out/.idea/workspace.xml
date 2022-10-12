@@ -6,9 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="829e0c8d-95c8-419c-871a-1691156b7373" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ricky/reggie/filter/LoginCheckFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ricky/reggie/filter/LoginCheckFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/front/page/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/front/page/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ricky/reggie/controller/DishController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ricky/reggie/controller/DishController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,10 +78,10 @@
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.ricky.reggie.controller" />
+      <recent name="com.ricky.reggie.entity" />
       <recent name="com.ricky.reggie.service.impl" />
       <recent name="com.ricky.reggie.service" />
-      <recent name="com.ricky.reggie.entity" />
-      <recent name="com.ricky.reggie.filter" />
+      <recent name="com.ricky.reggie.mapper" />
     </key>
   </component>
   <component name="RunManager">
@@ -119,7 +117,7 @@
       <workItem from="1665367912868" duration="11872000" />
       <workItem from="1665389214496" duration="689000" />
       <workItem from="1665389929615" duration="14436000" />
-      <workItem from="1665464524670" duration="16401000" />
+      <workItem from="1665464524670" duration="19180000" />
     </task>
     <servers />
   </component>
